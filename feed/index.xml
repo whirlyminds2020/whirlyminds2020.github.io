@@ -27,7 +27,7 @@ layout: null
 	{% for post in site.posts limit:300 %}
 		<item>
 			  <!-- <title>{% if post.slug %}Ep {{ post.slug | xml_escape }}{% endif %}: {{post.title | xml_escape }}</title> -->
-      <title> {{post.title | xml_escape }} </title>
+        <!-- <title> {{post.title | xml_escape }} </title> -->
 			<itunes:title>{{post.title | xml_escape }}</itunes:title>
 			<itunes:author>{{ post.author | xml_escape }}</itunes:author>
     		<itunes:subtitle>{{ post.subtitle | xml_escape }}</itunes:subtitle>
