@@ -1,12 +1,20 @@
 markdown: kramdown
 permalink: /:year/:month/:day/:title/
-url: http://blog.nswebfrog.com
-author: nswebfrog
+url: http://whirlyminds2020.github.io
+mp3_url: http://qawps3ok4.bkt.clouddn.com/podcasts
+author: 意马心猿(Whirly Minds)
 highlighter: rouge
 exclude: ["Rakefile", "CNAME", "README.md"]
 safe: false
-paginate: 15
+paginate: 2
+
 
 
 # Gems
 gems: [jekyll-paginate]
+
+plugins:
+  - audioinfo
+
+include:
+  - _plugins
