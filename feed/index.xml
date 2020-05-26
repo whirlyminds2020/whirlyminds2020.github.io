@@ -18,7 +18,7 @@ layout: null
 	<itunes:name>意马心猿</itunes:name>
 	<itunes:email>whirlyminds@outlook.com</itunes:email>
 	</itunes:owner>
-	<itunes:image href="https://github.com/whirlyminds2020/whirlyminds2020.github.io/blob/master/assets/images/logo.png" />
+	<itunes:image href="https://raw.githubusercontent.com/whirlyminds2020/whirlyminds2020.github.io/master/assets/images/logo.png" />
 	<itunes:category text="Technology"/>
   <itunes:category text="History"/>
 	<itunes:category text="Society &amp; Culture">
@@ -32,7 +32,7 @@ layout: null
     		<itunes:subtitle>{{ post.podcast_summary | xml_escape }}</itunes:subtitle>
 			<itunes:summary><![CDATA[{{ post.podcast_summary | cdata_escape }}]]></itunes:summary>
 			<!-- <description><![CDATA[{{ post.podcast_summary | cdata_escape }} <br><br><a rel="payment" href="https://darknetdiaries.com">Visit DarknetDiaries.com to see more show notes.</a>]]></description> -->
-      <enclosure url="{{site.podcast_url}}/{{ post.podcast_file }}" length="{{post.length}}" type="audio/mpeg" />
+      <enclosure url="{{ post.podcast_file }}" length="{{post.length}}" type="audio/mpeg" />
 			<itunes:duration>{{post.length}}</itunes:duration>
 			<itunes:image href="https://whirlyminds2020.github.io/blob/master/{{ post.podcast_image }}" />
 			<itunes:season>1</itunes:season>
