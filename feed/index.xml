@@ -32,7 +32,7 @@ layout: null
 			<itunes:author>{{ post.author | xml_escape }}</itunes:author>
     		<itunes:subtitle>{{ post.subtitle | xml_escape }}</itunes:subtitle>
 			<itunes:summary><![CDATA[{{ post.podcast_summary | cdata_escape }}]]></itunes:summary>
-			<description>{{post.description}}</description>
+			<description><![CDATA[{{ post.description | cdata_escape }}]]></description>
       <content:encoded><![CDATA[ <b>Content Encoded</b>]]></content:encoded>
       <enclosure url="{{ post.podcast_file }}" length="{{post.length}}" type="audio/mpeg" />
 			<itunes:duration>{{post.length}}</itunes:duration>
