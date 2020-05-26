@@ -8,13 +8,7 @@ exclude: ["Rakefile", "CNAME", "README.md"]
 safe: false
 paginate: 2
 
-
-
 # Gems
-gems: [jekyll-paginate]
-
 plugins:
   - audioinfo
-
-include:
-  - _plugins
+  - jekyll-paginate
