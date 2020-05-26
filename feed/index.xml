@@ -8,7 +8,7 @@ layout: null
 	<link>https://whirlyminds2020.github.io</link>
 	<language>zh</language>
 	<atom:link href="{{ site.url }}/feed.xml" rel="self" type="application/rss+xml" />
-	<copyright>胡祥龙 康小广</copyright>
+	<copyright>意马心猿 Whirly Minds 2020</copyright>
 	<itunes:subtitle>两个兴趣广泛的人的聊天记录</itunes:subtitle>
 	<itunes:author>胡祥龙 康小广</itunes:author>
 	<itunes:summary>我们是两个热爱思考的程序员。这个播客会记录我们对生活和宇宙的思考。</itunes:summary>

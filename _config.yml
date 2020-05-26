@@ -2,7 +2,7 @@ markdown: kramdown
 permalink: /:year/:month/:day/:title/
 url: http://whirlyminds2020.github.io
 podcast_url: http://qawps3ok4.bkt.clouddn.com/podcasts
-author: "意马心猿 (Whirly Minds)"
+author: "意马心猿 Whirly Minds"
 highlighter: rouge
 exclude: ["Rakefile", "CNAME", "README.md"]
 safe: false
