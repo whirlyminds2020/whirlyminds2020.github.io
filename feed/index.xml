@@ -34,7 +34,7 @@ layout: null
 			<itunes:summary><![CDATA[{{ post.podcast_summary | cdata_escape }}]]></itunes:summary>
 			<description><![CDATA[{{ post.description | cdata_escape }}]]></description>
       <content:encoded><![CDATA[ {{post.description | cdata_escape}} ]]></content:encoded>
-      <enclosure url="{{ post.podcast_file }}" length="{{post.length}}" type="audio/mpeg" />
+      <enclosure url="{{ site.podcast_url }}/{{ post.podcast_file }}" length="{{post.length}}" type="audio/mpeg" />
 			<itunes:duration>{{post.length}}</itunes:duration>
 			<itunes:image href="{{ post.podcast_image }}" />
 			<itunes:season>1</itunes:season>
