@@ -3,6 +3,10 @@ layout: default
 ---
 
 <section class="post">
+{% if page.ximalaya_id %}
+<iframe height="230" width="260" src="https://www.ximalaya.com/thirdparty/player/sound/player.html?id={{ page.ximalaya_id }}&type=red" frameborder=0 allowfullscreen></iframe> 
+<br/>
+{% endif %}
 {{ content }}
 </section>
 <section class="meta">
