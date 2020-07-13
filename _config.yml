@@ -6,7 +6,7 @@ author: "意马心猿 Whirly Minds"
 highlighter: rouge
 exclude: ["Rakefile", "CNAME", "README.md"]
 safe: false
-paginate: 2
+paginate: 10
 
 # Gems
 plugins:
