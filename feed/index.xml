@@ -26,8 +26,8 @@ layout: null
 	</itunes:category>
 	{% for post in site.posts limit:300 %}
 		<item>
-      <title> {{ post.title | xml_escape }} </title>
-			<itunes:title>{{ post.title | xml_escape }}</itunes:title>
+      <title>#{{ post.slug | xml_escape }} {{ post.title | xml_escape }}</title>
+			<itunes:title>#{{ post.slug | xml_escape }} {{ post.title | xml_escape }}</itunes:title>
 			<itunes:author>{{ post.author | xml_escape }}</itunes:author>
 			<itunes:subtitle>{{ post.subtitle | xml_escape }}</itunes:subtitle>
 			<itunes:summary><![CDATA[{{ post.podcast_summary | cdata_escape }}]]></itunes:summary>
