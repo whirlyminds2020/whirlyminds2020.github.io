@@ -3,8 +3,10 @@ layout: default
 ---
 
 <section class="post">
-{% if page.netease_playlist_id %}
-    <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width="510" height="210" src="//music.163.com/outchain/player?type=4&id={{ page.netease_playlist_id }}&auto=0&height=430"></iframe>
+{% if page.apple_podcast_playlist_id %}
+<iframe src="https://embed.podcasts.apple.com/us/podcast/%E6%84%8F%E9%A9%AC%E5%BF%83%E7%8C%BF/id{{ page.apple_podcast_playlist_id }}?itsct=podcast_box&amp;itscg=30200" height="450px" frameborder="0" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation-by-user-activation" allow="autoplay *; encrypted-media *;" style="width: 100%; max-width: 660px; overflow: hidden; border-radius: 10px; background: transparent;"></iframe>
+{% elsif page.netease_playlist_id %}
+<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width="510" height="210" src="//music.163.com/outchain/player?type=4&id={{ page.netease_playlist_id }}&auto=0&height=430"></iframe>
 {% elsif page.ximalaya_playlist_id %}
 <iframe height="230" width="260" src="https://www.ximalaya.com/thirdparty/player/album/player.html?id={{ page.ximalaya_playlist_id }}&type=red" frameborder="0" allowfullscreen></iframe>
 {% endif %}

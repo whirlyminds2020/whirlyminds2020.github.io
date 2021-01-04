@@ -2,6 +2,7 @@
 title: 订阅我们
 layout: page
 comments: no
+apple_podcast_playlist_id: "1517350417"
 netease_playlist_id: "794839371"
 ximalaya_playlist_id: "38372946"
 ---
